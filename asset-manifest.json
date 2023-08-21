@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Lakshit086/Google-Form-Creater.git/static/css/main.fc1c1a36.css",
+    "main.js": "/Lakshit086/Google-Form-Creater.git/static/js/main.40a4ab61.js",
+    "static/js/787.a364790d.chunk.js": "/Lakshit086/Google-Form-Creater.git/static/js/787.a364790d.chunk.js",
+    "index.html": "/Lakshit086/Google-Form-Creater.git/index.html",
+    "main.fc1c1a36.css.map": "/Lakshit086/Google-Form-Creater.git/static/css/main.fc1c1a36.css.map",
+    "main.40a4ab61.js.map": "/Lakshit086/Google-Form-Creater.git/static/js/main.40a4ab61.js.map",
+    "787.a364790d.chunk.js.map": "/Lakshit086/Google-Form-Creater.git/static/js/787.a364790d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc1c1a36.css",
+    "static/js/main.40a4ab61.js"
+  ]
+}
