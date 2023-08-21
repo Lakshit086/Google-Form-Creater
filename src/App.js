@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import React, { useState } from 'react';
+import FormList from './components/FormList';
+import FormCreator from './components/FormCreator';
 
 function App() {
+  const [forms, setForms] = useState([]);
+
+  const handleFormCreate = (newForm) => {
+    setForms([...forms, newForm]);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <FormList forms={forms} />
+      <FormCreator onCreate={handleFormCreate} />
     </div>
   );
 }
